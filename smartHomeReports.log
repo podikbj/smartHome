@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-01-06T15:21:23.887494500Z</date>
+  <millis>1609946483887</millis>
+  <nanos>494500</nanos>
+  <sequence>3</sequence>
+  <logger>cz.cvut.fel.omo.smartHome.Reports</logger>
+  <level>INFO</level>
+  <class>cz.cvut.fel.omo.smartHome.Reports</class>
+  <method>printHouseConfigurationReport</method>
+  <thread>1</thread>
+  <message>Clearing the contents of the Reports.txt file starts</message>
+</record>
+<record>
+  <date>2021-01-06T15:21:23.889491700Z</date>
+  <millis>1609946483889</millis>
+  <nanos>491700</nanos>
+  <sequence>4</sequence>
+  <logger>cz.cvut.fel.omo.smartHome.Reports</logger>
+  <level>INFO</level>
+  <class>cz.cvut.fel.omo.smartHome.Reports</class>
+  <method>printHouseConfigurationReport</method>
+  <thread>1</thread>
+  <message>Printing HouseConfigurationReport to Reports.txt file starts</message>
+</record>
+<record>
+  <date>2021-01-06T15:21:23.893479500Z</date>
+  <millis>1609946483893</millis>
+  <nanos>479500</nanos>
+  <sequence>5</sequence>
+  <logger>cz.cvut.fel.omo.smartHome.Reports</logger>
+  <level>INFO</level>
+  <class>cz.cvut.fel.omo.smartHome.Reports</class>
+  <method>printEventReport</method>
+  <thread>1</thread>
+  <message>Printing EventReport to Reports.txt file starts</message>
+</record>
+<record>
+  <date>2021-01-06T15:21:23.900460Z</date>
+  <millis>1609946483900</millis>
+  <nanos>460000</nanos>
+  <sequence>6</sequence>
+  <logger>cz.cvut.fel.omo.smartHome.Reports</logger>
+  <level>INFO</level>
+  <class>cz.cvut.fel.omo.smartHome.Reports</class>
+  <method>printActivityAndUsageReport</method>
+  <thread>1</thread>
+  <message>Printing ActivityAndUsageReport to Reports.txt file starts</message>
+</record>
+<record>
+  <date>2021-01-06T15:21:23.913427300Z</date>
+  <millis>1609946483913</millis>
+  <nanos>427300</nanos>
+  <sequence>7</sequence>
+  <logger>cz.cvut.fel.omo.smartHome.Reports</logger>
+  <level>INFO</level>
+  <class>cz.cvut.fel.omo.smartHome.Reports</class>
+  <method>printConsumptionReport</method>
+  <thread>1</thread>
+  <message>Printing ConsumptionReport to Reports.txt file starts</message>
+</record>
+</log>

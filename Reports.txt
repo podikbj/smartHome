@@ -1,0 +1,549 @@
+============================================================
+HOUSE CONFIGURATION REPORT
+============================================================
+Instance Springwill includes:
+Instance House includes:
+---Instance Floor#1 includes:
+----Instance HALL having window 700x700 mm with wood blinds includes:
+------Instance: BurglarAlarm BBB-2
+------Instance: BurglarAlarm BBB-3
+------Instance: ElectronicLock EEE-1
+------Instance: ElectronicLock EEE-2
+------Instance: Sensor CCC
+----Instance GARAGE having window 500x500 mm with wood blinds includes:
+------Instance: WaterLeakDetector WWW
+------Instance: GasLeakDetector LLL
+------Instance: BurglarAlarm BBB-1
+------Instance: ElectronicLock EEE-3
+----Instance KITCHEN having window 700x700 mm with wood blinds includes:
+------Instance: CoffeeMachine MMM-1
+------Instance: CoffeeMachine MMM-2
+------Instance: CoffeeMachine MMM-3
+------Instance: SmokeAlarm SSS-1
+------Instance: AirConditioner CCC-3
+------Instance: DAUGHTER1
+----Instance LAUNDRYROOM having window 500x500 mm with plastic blinds includes:
+------Instance: WashingMachine Boch-1
+------Instance: WashingMachine Boch-2
+------Instance: GasBoiler GGG
+------Instance: SmokeAlarm SSS-2
+------Instance: AirConditioner CCC-2
+------Instance: Dog Oscar
+------Instance: FATHER
+------Instance: Cat Simba
+------Instance: Parrot Buddy
+------Instance: MOTHER
+------Instance: GRANDMOTHER1
+----Instance LIVINGROOM having window 700x700 mm with wood blinds includes:
+---Instance Floor#2 includes:
+----Instance BEDROOM having window 700x700 mm with plastic blinds includes:
+------Instance: SmokeAlarm SSS-3
+------Instance: AirConditioner CCC-1
+Instance Outside includes:
+---Instance: Road bike includes:
+------Instance: SON1
+---Instance: Mountain bike includes:
+---Instance: Ski Sender includes:
+------Instance: GRANDFATHER1
+---Instance: Ski Sheeva includes:
+============================================================
+HOUSE EVENT REPORT
+============================================================
+SMOKE_ALARM event happened;
+ Event initiated by device of type SMOKE_ALARM
+   Instance: SmokeAlarm SSS-1 reports a smoke alarm.
+   System sends a smoke alarm message
+     Instance: GRANDMOTHER1 is calling 911.
+   Instance: SmokeAlarm SSS-2 reports a smoke alarm.
+   System sends a smoke alarm message
+     Instance: GRANDMOTHER1 is calling 911.
+   Instance: SmokeAlarm SSS-3 reports a smoke alarm.
+   System sends a smoke alarm message
+     Instance: GRANDMOTHER1 is calling 911.
+GAS_LEAK_ALARM event happened;
+ Event initiated by device of type GAS_LEAK_DETECTOR
+   Instance: GasLeakDetector LLL reports a gas leak alarm.
+   System sends a gas leak alarm message
+     Instance: MOTHER is turning off the gas valve.
+   Instance: GasLeakDetector LLL reports a gas leak alarm.
+   System sends a gas leak alarm message
+     Instance: FATHER is calling emergency service.
+   Instance: GasLeakDetector LLL reports a gas leak alarm.
+   System sends a gas leak alarm message
+     Instance: GRANDFATHER1 is looking for dog.
+WATER_LEAK_ALARM event happened;
+ Event initiated by device of type WATER_LEAK_DETECTOR
+   Instance: WaterLeakDetector WWW reports a gas leak alarm.
+   System sends a water leak alarm message
+     Instance: MOTHER is starting to clean.
+   Instance: WaterLeakDetector WWW reports a gas leak alarm.
+   System sends a water leak alarm message
+     Instance: FATHER is turning off the water valve.
+   Instance: WaterLeakDetector WWW reports a gas leak alarm.
+   System sends a water leak alarm message
+     Instance: DAUGHTER1 is looking for cat.
+BREAKING_ENTERING_ALARM event happened;
+ Event initiated by device of type BURGLAR_ALARM
+   Instance: BurglarAlarm BBB-1 reports an entering and breaking alarm.
+   System sends a breaking and entering alarm message
+     Instance: MOTHER is calling the children.
+   Instance: BurglarAlarm BBB-1 reports an entering and breaking alarm.
+   System sends a breaking and entering alarm message
+     Instance: FATHER is calling the police.
+   Instance: BurglarAlarm BBB-1 reports an entering and breaking alarm.
+   System sends a breaking and entering alarm message
+     Instance: SON1 is looking for parrot.
+   Instance: BurglarAlarm BBB-2 reports an entering and breaking alarm.
+   System sends a breaking and entering alarm message
+     Instance: MOTHER is calling the children.
+   Instance: BurglarAlarm BBB-2 reports an entering and breaking alarm.
+   System sends a breaking and entering alarm message
+     Instance: FATHER is calling the police.
+   Instance: BurglarAlarm BBB-2 reports an entering and breaking alarm.
+   System sends a breaking and entering alarm message
+     Instance: SON1 is looking for parrot.
+   Instance: BurglarAlarm BBB-3 reports an entering and breaking alarm.
+   System sends a breaking and entering alarm message
+     Instance: MOTHER is calling the children.
+   Instance: BurglarAlarm BBB-3 reports an entering and breaking alarm.
+   System sends a breaking and entering alarm message
+     Instance: FATHER is calling the police.
+   Instance: BurglarAlarm BBB-3 reports an entering and breaking alarm.
+   System sends a breaking and entering alarm message
+     Instance: SON1 is looking for parrot.
+BREAKING_ALARM event happened;
+ Event initiated by device of type COFFEE_MACHINE
+   Instance: CoffeeMachine MMM-1 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: CoffeeMachine MMM-1 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+   Instance: CoffeeMachine MMM-2 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: CoffeeMachine MMM-2 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+   Instance: CoffeeMachine MMM-3 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: CoffeeMachine MMM-3 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+ Event initiated by device of type AIR_CONDITIONER
+   Instance: AirConditioner CCC-1 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: AirConditioner CCC-1 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+   Instance: AirConditioner CCC-2 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: AirConditioner CCC-2 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+   Instance: AirConditioner CCC-3 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: AirConditioner CCC-3 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+ Event initiated by device of type GAS_BOILER
+   Instance: GasBoiler GGG reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: GasBoiler GGG reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+ Event initiated by device of type SENSOR
+   Instance: Sensor CCC reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: Sensor CCC reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+ Event initiated by device of type WASHING_MACHINE
+   Instance: WashingMachine Boch-1 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: WashingMachine Boch-1 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+   Instance: WashingMachine Boch-2 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: WashingMachine Boch-2 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+ Event initiated by device of type ELECTRONC_LOCK
+   Instance: ElectronicLock EEE-1 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: ElectronicLock EEE-1 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+   Instance: ElectronicLock EEE-2 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: ElectronicLock EEE-2 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+   Instance: ElectronicLock EEE-3 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDMOTHER1 is reading repair manual.
+   Instance: ElectronicLock EEE-3 reports a break alarm.
+   System sends a break alarm message
+     Instance: GRANDFATHER1 is reading repair manual and is calling the repair service
+DEFAULT event happened;
+============================================================
+HOUSE ACTIVITY REPORT
+============================================================
+Instance: MOTHER is watching TV.
+Instance: SON1 is reading news.
+Instance: Cat Simba has vacated KITCHEN
+Instance: Cat Simba has visited HALL
+Instance: MOTHER has vacated KITCHEN
+Instance: MOTHER has visited HALL
+
+Instance: MOTHER has vacated HALL
+Instance: MOTHER has visited BEDROOM
+
+Instance: FATHER has vacated GARAGE
+Instance: FATHER has visited BEDROOM
+Instance: FATHER has activated AirConditioner CCC-1
+
+Instance: GRANDMOTHER1 has vacated LIVINGROOM
+Instance: GRANDMOTHER1 has visited BEDROOM
+Instance: GRANDMOTHER1 has activated AirConditioner CCC-1
+
+Instance: DAUGHTER1 has activated AirConditioner CCC-1
+
+Instance: MOTHER has vacated BEDROOM
+Instance: MOTHER has visited LAUNDRYROOM
+
+Instance: GRANDMOTHER1 has vacated BEDROOM
+Instance: GRANDMOTHER1 has visited LAUNDRYROOM
+Instance: GRANDMOTHER1 has activated AirConditioner CCC-2
+
+Instance: SON1 has vacated LIVINGROOM
+Instance: SON1 has visited LAUNDRYROOM
+Instance: SON1 has activated AirConditioner CCC-2
+
+Instance: GRANDMOTHER1 has vacated LAUNDRYROOM
+Instance: GRANDMOTHER1 has visited KITCHEN
+
+Instance: DAUGHTER1 has vacated BEDROOM
+Instance: DAUGHTER1 has visited KITCHEN
+Instance: DAUGHTER1 has activated AirConditioner CCC-3
+
+Instance: Cat Simba has vacated HALL
+Instance: Cat Simba has visited KITCHEN
+Instance: MOTHER has vacated LAUNDRYROOM
+Instance: MOTHER has visited KITCHEN
+
+Instance: GRANDFATHER1 has vacated LIVINGROOM
+Instance: GRANDFATHER1 has visited KITCHEN
+Instance: GRANDFATHER1 has activated CoffeeMachine MMM-1
+
+Instance: Parrot Buddy has vacated BEDROOM
+Instance: Parrot Buddy has visited KITCHEN
+Instance: SON1 has vacated LAUNDRYROOM
+Instance: SON1 has visited KITCHEN
+
+
+Instance: DAUGHTER1 has activated CoffeeMachine MMM-3
+
+Instance: MOTHER has vacated KITCHEN
+Instance: MOTHER has visited HALL
+
+Instance: FATHER has vacated BEDROOM
+Instance: FATHER has visited HALL
+
+Instance: Dog Oscar has vacated LIVINGROOM
+Instance: Dog Oscar has visited LAUNDRYROOM
+Instance: MOTHER has vacated HALL
+Instance: MOTHER has visited LAUNDRYROOM
+
+Instance: GRANDFATHER1 has vacated KITCHEN
+Instance: GRANDFATHER1 has visited LAUNDRYROOM
+Instance: GRANDFATHER1 has activated GasBoiler GGG
+
+Instance: FATHER has vacated HALL
+Instance: FATHER has visited LAUNDRYROOM
+
+Instance: Cat Simba has vacated KITCHEN
+Instance: Cat Simba has visited LAUNDRYROOM
+Instance: Cat Simba is asking for food 
+
+Instance: Parrot Buddy has vacated KITCHEN
+Instance: Parrot Buddy has visited LAUNDRYROOM
+Instance: Parrot Buddy is flying.
+
+
+Instance: GRANDMOTHER1 has vacated KITCHEN
+Instance: GRANDMOTHER1 has visited LAUNDRYROOM
+Instance: GRANDMOTHER1 has blocked WashingMachine Boch-2
+
+Instance: GRANDFATHER1 has activated WashingMachine Boch-2
+
+Instance: SON1 has vacated KITCHEN
+Instance: SON1 has visited Road bike
+
+Instance: GRANDFATHER1 has vacated LAUNDRYROOM
+Instance: GRANDFATHER1 has visited Ski Sender
+
+Instance: Cat Simba is sleeping.
+
+Instance: FATHER sneezes.
+Instance: Parrot Buddy is flying.
+
+Instance: MOTHER sneezes.
+Instance: SON1 is watching TV.
+Instance: GRANDMOTHER1 sneezes.
+Instance: MOTHER is watching TV.
+Instance: GRANDMOTHER1 is watching TV.
+Instance: Dog Oscar is playing.
+
+Instance: MOTHER sneezes.
+Instance: FATHER sneezes.
+Instance: SON1 is reading news.
+Instance: GRANDMOTHER1 is watching TV.
+Instance: SON1 is reading news.
+Instance: FATHER sneezes.
+Instance: GRANDFATHER1 sneezes.
+Instance: SON1 is reading news.
+Instance: SON1 is reading news.
+Instance: FATHER sneezes.
+Instance: MOTHER is watching TV.
+Instance: MOTHER sneezes.
+Instance: GRANDFATHER1 is reading news.
+Instance: FATHER is watching TV.
+Instance: GRANDFATHER1 is reading news.
+Instance: Cat Simba is asking for food 
+
+Instance: MOTHER sneezes.
+Instance: FATHER is watching TV.
+Instance: SON1 is reading news.
+Instance: FATHER sneezes.
+Instance: SON1 is watching TV.
+Instance: Cat Simba says: Meu.
+Instance: Cat Simba is sleeping.
+
+Instance: GRANDMOTHER1 is watching TV.
+Instance: DAUGHTER1 sneezes.
+Instance: Parrot Buddy is asking for food 
+
+Instance: DAUGHTER1 sneezes.
+Instance: FATHER is watching TV.
+Instance: DAUGHTER1 is reading news.
+Instance: Cat Simba is asking for food 
+
+Instance: Dog Oscar says: Haf.
+Instance: Dog Oscar is playing.
+
+Instance: GRANDFATHER1 sneezes.
+Instance: MOTHER is watching TV.
+Instance: GRANDFATHER1 is reading news.
+Instance: SON1 sneezes.
+Instance: Dog Oscar says: Haf.
+Instance: Dog Oscar is playing.
+
+Instance: MOTHER is watching TV.
+Instance: GRANDMOTHER1 sneezes.
+Instance: MOTHER is watching TV.
+Instance: FATHER is watching TV.
+Instance: MOTHER sneezes.
+Instance: FATHER is reading news.
+Instance: GRANDFATHER1 sneezes.
+Instance: Parrot Buddy says: My name is Buddy.
+Instance: Parrot Buddy is flying.
+
+Instance: FATHER is reading news.
+Instance: GRANDFATHER1 sneezes.
+Instance: SON1 is watching TV.
+Instance: MOTHER sneezes.
+Instance: GRANDFATHER1 sneezes.
+Instance: SON1 sneezes.
+Instance: MOTHER is watching TV.
+Instance: Cat Simba says: Meu.
+Instance: Cat Simba is sleeping.
+
+Instance: GRANDMOTHER1 is watching TV.
+Instance: SON1 is watching TV.
+Instance: GRANDFATHER1 is watching TV.
+Instance: SON1 sneezes.
+Instance: Dog Oscar is asking for food 
+
+Instance: MOTHER is reading news.
+Instance: GRANDFATHER1 sneezes.
+Instance: SON1 sneezes.
+Instance: Cat Simba says: Meu.
+Instance: Cat Simba is sleeping.
+
+Instance: MOTHER is reading news.
+Instance: DAUGHTER1 sneezes.
+Instance: MOTHER sneezes.
+Instance: DAUGHTER1 is watching TV.
+Instance: Parrot Buddy is flying.
+
+Instance: SON1 sneezes.
+Instance: GRANDMOTHER1 is watching TV.
+Instance: SON1 sneezes.
+Instance: MOTHER is reading news.
+Instance: GRANDMOTHER1 is watching TV.
+Instance: GRANDFATHER1 is watching TV.
+Instance: GRANDMOTHER1 sneezes.
+Instance: GRANDFATHER1 sneezes.
+Instance: DAUGHTER1 is watching TV.
+Instance: GRANDFATHER1 sneezes.
+Instance: DAUGHTER1 is watching TV.
+Instance: Parrot Buddy is flying.
+
+Instance: GRANDMOTHER1 sneezes.
+Instance: SON1 is reading news.
+Instance: DAUGHTER1 sneezes.
+Instance: Dog Oscar says: Haf.
+Instance: Dog Oscar is playing.
+
+Instance: GRANDMOTHER1 sneezes.
+Instance: FATHER sneezes.
+Instance: SON1 is watching TV.
+Instance: FATHER is reading news.
+Instance: GRANDMOTHER1 is reading news.
+Instance: GRANDMOTHER1 is watching TV.
+============================================================
+HOUSE USAGE REPORT
+============================================================
+Instance MOTHER used device: 
+  Sensor CCC 1 times.
+  WashingMachine Boch-2 1 times.
+  ElectronicLock EEE-1 1 times.
+  AirConditioner CCC-1 1 times.
+  CoffeeMachine MMM-3 1 times.
+  AirConditioner CCC-2 1 times.
+  CoffeeMachine MMM-1 1 times.
+  GasBoiler GGG 1 times.
+Instance FATHER used device: 
+  WashingMachine Boch-1 1 times.
+  ElectronicLock EEE-2 1 times.
+  AirConditioner CCC-1 1 times.
+Instance GRANDMOTHER1 used device: 
+  WashingMachine Boch-2 1 times.
+  AirConditioner CCC-1 1 times.
+  AirConditioner CCC-2 1 times.
+  AirConditioner CCC-3 1 times.
+Instance GRANDFATHER1 used device: 
+  WashingMachine Boch-2 1 times.
+  CoffeeMachine MMM-1 1 times.
+  GasBoiler GGG 1 times.
+Instance SON1 used device: 
+  AirConditioner CCC-2 1 times.
+  CoffeeMachine MMM-2 1 times.
+Instance DAUGHTER1 used device: 
+  AirConditioner CCC-1 1 times.
+  CoffeeMachine MMM-3 1 times.
+  AirConditioner CCC-3 1 times.
+============================================================
+HOUSE CONSUMPTION REPORT
+============================================================
+BurglarAlarm BBB-2 consumped: 
+ Electricity on active state: 240.0 w
+ Electricity on idle state: 60.0 w
+
+BurglarAlarm BBB-3 consumped: 
+ Electricity on active state: 240.0 w
+ Electricity on idle state: 60.0 w
+
+ElectronicLock EEE-1 consumped: 
+ Electricity on active state: 195.0 w
+ Electricity on idle state: 39.0 w
+
+ElectronicLock EEE-2 consumped: 
+ Electricity on active state: 195.0 w
+ Electricity on idle state: 39.0 w
+
+Sensor CCC consumped: 
+ Electricity on active state: 390.0 w
+ Electricity on idle state: 65.0 w
+
+WaterLeakDetector WWW consumped: 
+ Water: 600 l
+ Electricity on active state: 1000.0 w
+ Electricity on idle state: 200.0 w
+
+GasLeakDetector LLL consumped: 
+ Gas: 300 l
+ Electricity on active state: 300.0 w
+ Electricity on idle state: 180.0 w
+
+BurglarAlarm BBB-1 consumped: 
+ Electricity on active state: 240.0 w
+ Electricity on idle state: 60.0 w
+
+ElectronicLock EEE-3 consumped: 
+ Electricity on active state: 180.0 w
+ Electricity on idle state: 36.0 w
+
+CoffeeMachine MMM-1 consumped: 
+ Water: 136.0 l
+ Coffee: 850 g
+ Electricity on active state: 255.0 w
+ Electricity on idle state: 51.0 w
+
+CoffeeMachine MMM-2 consumped: 
+ Water: 128.0 l
+ Coffee: 800 g
+ Electricity on active state: 240.0 w
+ Electricity on idle state: 48.0 w
+
+CoffeeMachine MMM-3 consumped: 
+ Water: 136.0 l
+ Coffee: 850 g
+ Electricity on active state: 255.0 w
+ Electricity on idle state: 51.0 w
+
+SmokeAlarm SSS-1 consumped: 
+ Smoke: 7 mg
+ Electricity on active state: 360.0 w
+ Electricity on idle state: 60.0 w
+
+AirConditioner CCC-3 consumped: 
+ Electricity on active state: 2800.0 w
+ Electricity on idle state: 210.0 w
+
+WashingMachine Boch-1 consumped: 
+ Water: 800.0 l
+ Electricity on active state: 1000.0 w
+ Electricity on idle state: 210.0 w
+
+WashingMachine Boch-2 consumped: 
+ Water: 840.0 l
+ Electricity on active state: 1050.0 w
+ Electricity on idle state: 220.0 w
+
+GasBoiler GGG consumped: 
+ Water: 0.0 l
+ Gas: 500.0 g
+ Electricity on active state: 700.0 w
+ Electricity on idle state: 110.0 w
+
+SmokeAlarm SSS-2 consumped: 
+ Smoke: 7 mg
+ Electricity on active state: 360.0 w
+ Electricity on idle state: 60.0 w
+
+AirConditioner CCC-2 consumped: 
+ Electricity on active state: 3000.0 w
+ Electricity on idle state: 225.0 w
+
+SmokeAlarm SSS-3 consumped: 
+ Smoke: 7 mg
+ Electricity on active state: 360.0 w
+ Electricity on idle state: 60.0 w
+
+AirConditioner CCC-1 consumped: 
+ Electricity on active state: 3200.0 w
+ Electricity on idle state: 240.0 w
+
